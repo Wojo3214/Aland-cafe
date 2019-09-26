@@ -320,6 +320,10 @@ h1{
     line-height: 2;
 }
 
+.nav{
+    display: none;
+}
+
 /*******RESPONSIVE********/
 @media only screen and (max-width: 540px){
     .navigation{
@@ -384,6 +388,10 @@ h1{
 
     .footer_container{
         flex-direction: column;
+    }
+    
+    .title_subpage{
+        text-align: center;
     }
 
     .circle{
